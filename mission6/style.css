@@ -1,0 +1,46 @@
+h2 {
+    background: #c2edff;                /*背景色*/
+    padding:5px;                        /*文字の余白*/
+}
+
+h3 {
+    padding: 3px 6px;                   /*上下左右の余白*/
+    color: #494949;                     /*文字色*/
+    background: transparent;            /*背景を透明に変更*/
+    border-left: solid 5px #7db4e6;     /*左に色指定で枠線追加*/
+}
+
+span {
+display: inline-block;
+width: 7em;
+}
+
+input[type="text"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+input.form { width: 240px; }
+
+
+.link_button {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+  }
+
+/*以下カーソルを当てたとき*/
+.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+  }
+
+/*以下訪問済みのデザイン*/
+.link_button:visited {
+  color: gray;/*文字をグレイに*/
+  }
